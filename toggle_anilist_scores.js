@@ -5,6 +5,7 @@
 // @grant       none
 // @version     1.0.2
 // @author      AnzoDK
+// @homepageURL https://github.com/AnzoDK/Anilist-Toggle-Scores
 // @downloadURL https://github.com/AnzoDK/Anilist-Toggle-Scores/releases/latest/download/toggle_anilist_scores.js
 // @description 21/10/2025, 13.21.43
 // ==/UserScript==
