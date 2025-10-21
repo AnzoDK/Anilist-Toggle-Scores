@@ -5,6 +5,7 @@
 // @grant       none
 // @version     1.0
 // @author      AnzoDK
+// @downloadURL https://github.com/AnzoDK/Anilist-Toggle-Scores/releases/latest/download/toggle_anilist_scores.js
 // @description 21/10/2025, 13.21.43
 // ==/UserScript==
 var styleSheetRuleIndex = -1;
@@ -27,5 +28,3 @@ btn.style.backgroundColor = "#3db4f2";
 btn.style.color = "white";
 btn.style.borderRadius = "6px";
 document.getElementsByClassName("filters")[0].appendChild(btn);
-
-
