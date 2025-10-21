@@ -35,3 +35,4 @@ function Init_ScoreToggle()
 {
   createToggleButton();
 }
+Init_ScoreToggle();
