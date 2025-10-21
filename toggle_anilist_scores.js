@@ -20,11 +20,18 @@ function toggleScores()
   var index = document.styleSheets[0].insertRule(".score {display:none!important;}",document.styleSheets[0].rules.length);
   styleSheetRuleIndex = index;
 }
-var btn = document.createElement("button");
-btn.id = "toggleScoresBtn";
-btn.appendChild(document.createTextNode("Toggle Scores!!"));
-btn.onclick = toggleScores
-btn.style.backgroundColor = "#3db4f2";
-btn.style.color = "white";
-btn.style.borderRadius = "6px";
-document.getElementsByClassName("filters")[0].appendChild(btn);
+function createToggleButton()
+{
+  var btn = document.createElement("button");
+  btn.id = "toggleScoresBtn";
+  btn.appendChild(document.createTextNode("Toggle Scores!!"));
+  btn.onclick = toggleScores
+  btn.style.backgroundColor = "#3db4f2";
+  btn.style.color = "white";
+  btn.style.borderRadius = "6px";
+  document.getElementsByClassName("filters")[0].appendChild(btn);
+}
+function Init_ScoreToggle()
+{
+  createToggleButton();
+}
