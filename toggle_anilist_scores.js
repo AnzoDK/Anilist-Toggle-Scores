@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://anilist.co/search/*
 // @grant       none
-// @version     1.0.0
+// @version     1.1.0
 // @author      AnzoDK
 // @license     MIT
 // @downloadURL https://github.com/AnzoDK/Anilist-Toggle-Scores/releases/latest/download/toggle_anilist_scores.js
