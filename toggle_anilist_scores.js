@@ -40,7 +40,7 @@ function Init_ScoreToggle()
   console.log("Toggle Anilist Scores: Button initilized");
 }
 
-function CheckForTarget()
+function CheckForTarget(mutationList, observer)
 {
   for (const mutation of mutationList)
     {
