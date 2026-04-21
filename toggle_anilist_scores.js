@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://anilist.co/search/*
 // @grant       none
-// @version     1.2.0
+// @version     1.2.1
 // @author      AnzoDK
 // @license     MIT
 // @downloadURL https://github.com/AnzoDK/Anilist-Toggle-Scores/releases/latest/download/toggle_anilist_scores.js
@@ -11,6 +11,7 @@
 // ==/UserScript==
 var state = localStorage.getItem("anilist_toggleScoresState") === "true" ? true : false;
 var styleNode = null;
+var stateCss = ".score:not(.form) {display:none!important;}";
 var targetNode = document.getElementsByClassName("filters")[0];
 var toggleBtn = null;
 function toggleScoresAndSaveState()
@@ -27,7 +28,7 @@ function toggleScores()
     toggleBtn.style.backgroundColor = "#182a34";
     return;
   }
-  styleNode.innerHTML = ".score {display:none!important;}";
+  styleNode.innerHTML = stateCss;
   toggleBtn.style.backgroundColor = "#3db4f2";
   state = true;
 }
@@ -60,7 +61,7 @@ function Init_ScoreToggle()
   console.log("Syncing button state with localStorage...");
   if(state)
   {
-    styleNode.innerHTML = ".score:not(.form) {display:none!important;}";
+    styleNode.innerHTML = stateCss;
     toggleBtn.style.backgroundColor = "#3db4f2";
   }
 }
