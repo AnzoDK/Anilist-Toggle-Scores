@@ -1,6 +1,7 @@
 # Anilist-Toggle-Scores
 Anilist Toggle Scores
 
+![Static Badge](https://img.shields.io/badge/Now_on%3A-Greasy_Fork-purple)
 ## What?
 This small script adds a ~really ugly~ button to toggle the visibility of scores on AniLists browse/search page
 
