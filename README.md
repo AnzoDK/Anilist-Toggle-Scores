@@ -1,7 +1,8 @@
 # Anilist-Toggle-Scores
 Anilist Toggle Scores
 
-![Static Badge](https://img.shields.io/badge/Download%3A-Greasy_Fork-purple?link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F574159-toggle-anilist-scores-script&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F574159-toggle-anilist-scores-script)
+![Static Badge](https://img.shields.io/badge/Download%3A-Greasy_Fork-purple?style=for-the-badge&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F574159-toggle-anilist-scores-script&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F574159-toggle-anilist-scores-script)
+
 
 
 ## What?
